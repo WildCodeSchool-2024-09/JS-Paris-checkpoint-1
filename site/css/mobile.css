@@ -1,0 +1,36 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h1 {
+    display: flex;
+    justify-content: center;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+}
+
+ .avatar {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) { 
+    .desktop {
+    display: none;
+}
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex: 1;
+}
+

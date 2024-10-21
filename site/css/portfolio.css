@@ -133,6 +133,21 @@ li#hidden {
   color: var(--lightWildColor);
 }
 
+article.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article.projects h2 {
+  width: 100%;
+}
+
+article.projects p {
+  width: 100%;
+}
+
+
 .projects a {
   color: var(--purple);
 }
@@ -144,6 +159,10 @@ li#hidden {
   margin: calc(var(--gutter) * 1.25);
   border-radius: var(--radius);
   box-shadow: var(--styledShadow);
+}
+
+a.disabled {
+  opacity: 30%;
 }
 
 .purple-text {

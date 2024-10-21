@@ -1,3 +1,16 @@
 figure.desktop{
     display: none;
 }
+
+article.skills {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+section.column {
+    width: 60%;
+}
+
+li#hidden {
+    visibility: hidden;
+  }

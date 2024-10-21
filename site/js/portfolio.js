@@ -20,6 +20,7 @@ button.addEventListener('click', function() {
         textcolor.forEach(function(element) {
             element.style.color = newColor
         });
+        button.style.backgroundColor = newColor;
 
     }
     
@@ -29,3 +30,10 @@ button.addEventListener('click', function() {
     }    
 });
 
+
+const links = document.querySelectorAll('a');
+
+if (links.length >= 2) {
+    links[0].style.color = '#750ff7'; 
+    links[1].style.color = '#750ff7'; 
+}

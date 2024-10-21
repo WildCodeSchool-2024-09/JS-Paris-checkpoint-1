@@ -1,3 +1,6 @@
 .desktop img {
     display: none;
 }
+
+.skills {
+    flex-direction: column-reverse;

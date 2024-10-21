@@ -21,6 +21,7 @@ h1 {
 
 p {
   padding: 0 var(--gutter);
+  margin: 0;
 }
 
 header nav {
@@ -30,6 +31,13 @@ header nav {
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
+}
+
+main section#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .desktop {

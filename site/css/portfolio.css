@@ -10,6 +10,19 @@
 
   --textAlign: center;
 }
+@media (min-width:700px){
+  
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+.titre{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}}
+
 
 img {
   max-width: 100%;
@@ -22,17 +35,24 @@ h1 {
 p {
   padding: 0 var(--gutter);
 }
+button{
+  border-radius: 5px;
+  color: var(--cardColor);
+  border-color:var(--borderColor);
+  background-color: var(--lightWildColor);
+}
 
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
 }
-
+@media (max-width: 700px) {
 .desktop {
+  display: none;
   margin: 0;
   margin-top: calc(var(--gutter) * 5);
   margin-bottom: calc(var(--gutter) * -0.3125);
-}
+}}
 
 .description {
   color: var(--light);
@@ -55,14 +75,24 @@ p {
   margin-top: calc(var(--gutter) * -2);
   border-radius: var(--radius);
   padding: 0 10%;
+  display: flex;
+  flex-direction: row-reverse;
 }
+@media (max-width:700px){
+  .skills{display: flex;
+    flex-direction: column;
+
+  }}
 
 .skills--title {
   margin: calc(var(--gutter) * -2) 0;
   text-align: var(--textAlign);
+  display: none;
 }
 
 .column {
+ flex: 1;
+ 
   border-left: var(--styledBorder);
   border-right: var(--styledBorder);
   border-bottom: var(--styledBorder);

@@ -11,7 +11,7 @@ document.getElementById('buttonfirstname').addEventListener('click', function() 
     const nom = prompt('Votre nom :');
     if (nom) {
         document.getElementById('firstname').innerText = `${nom}`;
-        document.getElementById('firstname').style.color=`${color}`;
+        document.getElementById('firstname').style.color='#f5f5f5';
         document.getElementById('buttonfirstname').style.backgroundColor =`${color}`;
         const descriptions = document.getElementsByClassName('description pink-bg');
         for (let i = 0; i < descriptions.length; i++) {

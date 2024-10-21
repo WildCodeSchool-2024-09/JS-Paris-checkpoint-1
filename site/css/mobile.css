@@ -1,3 +1,16 @@
 .desktop {
     display: none;
 }
+
+.skills {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.column {
+    width: 80%;
+}
+
+.skills--title {
+    display: none;
+}

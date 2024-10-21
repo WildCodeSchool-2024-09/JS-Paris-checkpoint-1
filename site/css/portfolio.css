@@ -22,6 +22,16 @@ h1 {
 p {
   padding: 0 var(--gutter);
 }
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Firstbanner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
 
 .menu {
   display: flex;
@@ -32,6 +42,12 @@ p {
   margin: 0;
   margin-top: calc(var(--gutter) * 5);
   margin-bottom: calc(var(--gutter) * -0.3125);
+}
+
+@media (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
 }
 
 .description {
@@ -71,6 +87,12 @@ p {
   border-radius: var(--radius);
   text-align: var(--textAlign);
   box-shadow: var(--styledShadow);
+  display: flex;
+}
+
+.section column {
+  display: flex;
+  flex-direction: row;
 }
 
 .column:first-of-type {

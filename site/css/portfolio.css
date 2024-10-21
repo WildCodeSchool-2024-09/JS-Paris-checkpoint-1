@@ -23,10 +23,49 @@ p {
   padding: 0 var(--gutter);
 }
 
+nav {
+  display: flex; /*modif alignement*/
+  justify-content: space-between; 
+  align-items: center; 
+}
+
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
 }
+
+
+
+.menu li { 
+
+  margin-left: 20px;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Empile les éléments verticalement */
+  align-items: center; /* Centre horizontalement */
+  text-align: center; /* Centre le texte */
+  gap: 20px; /* Espacement entre les éléments */
+  margin-top: 20px; /* Espacement au-dessus de main si nécessaire */
+}
+
+.titre {
+  font-size: 2.5rem; /* Ajuste la taille du titre */
+  margin: 10px 0; /* Espacement vertical */
+}
+
+.description{
+  color: var(--light); /* Assure-toi que la couleur est visible */
+  margin: 10px 0; /* Espacement vertical */
+  font-size: 0.5rem; /* Ajuste la taille de la description */
+}
+
+
+
+
+
 
 .desktop {
   margin: 0;

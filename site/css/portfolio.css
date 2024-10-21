@@ -108,3 +108,38 @@ p {
 .purple-text {
   color: var(--purple);
 }
+
+
+/*modification */
+header nav{
+  justify-content: space-between;
+}
+#banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills--title{
+  display: none;
+}
+.skills{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.column{
+  flex: 1;
+}
+@media screen and (max-width: 700px) {
+  .skills{
+    flex-direction: column-reverse;
+  }
+  .desktop{
+  display:none
+  }
+}
+#buttonfirstname{
+  background-color: var(--lightWildColor);
+  color: white;
+  border: white solid 2px ;
+  border-radius: 5px;
+}

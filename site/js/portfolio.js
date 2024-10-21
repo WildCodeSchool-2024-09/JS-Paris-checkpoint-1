@@ -40,8 +40,9 @@ modifyFront.addEventListener("click", () => {
 	}
 });
 
-function addSkill() {
+// Bug : added.skill au lieu de added-skill
+modifyBack.addEventListener("click", () => {
 	const addedSkill = document.createElement("li");
-	addedSkill.innerText = document.querySelector("#added.skill").value;
+	addedSkill.innerText = document.querySelector("#added-skill").value;
 	backList.appendChild(addedSkill);
-}
+});

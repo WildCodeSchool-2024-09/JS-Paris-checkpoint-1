@@ -7,13 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
     const firstname = document.querySelector('.firstname'); 
-    const changeNameButton = document.getElementById('changeNameButton');
+    const changeNameButton = document.getElementById('nomton');
 
     changeNameButton.addEventListener('click', function() {
-        const reponse = prompt("Entrez votre nom :");
+        const reponse = prompt("Enter your name:");
         if (reponse) {
             firstname.textContent = reponse; 
-            firstname.style.color = 'white';
         }
     });
 });

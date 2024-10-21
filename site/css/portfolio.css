@@ -26,7 +26,34 @@ p {
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
+  justify-content: right;
+
 }
+
+ul.menu { 
+  margin-left: auto;
+}
+
+.banner {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  padding: 20px; 
+  margin: 20px 0; 
+  flex-direction: column;
+}
+
+.banner-content {
+  max-width: 600px;
+}
+
+.avatar {
+  width: 100px;
+  height: auto;
+  margin-top: 15px; 
+}
+
 
 .desktop {
   margin: 0;
@@ -108,3 +135,4 @@ p {
 .purple-text {
   color: var(--purple);
 }
+

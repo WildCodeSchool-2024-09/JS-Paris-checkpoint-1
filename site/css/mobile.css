@@ -7,9 +7,9 @@ article.skills {
     flex-direction: column-reverse;
   }
 
-section.column {
+/* section.column {
     width: 60%;
-}
+} */
 
 li#hidden {
     visibility: hidden;

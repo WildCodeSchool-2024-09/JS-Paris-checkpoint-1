@@ -87,10 +87,15 @@ article.skills {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row-reverse
 }
 
 h2.skills--title{
   display: none;
+}
+
+section.column {
+  width: 60%;
 }
 
 .column {

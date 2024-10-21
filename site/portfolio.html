@@ -20,9 +20,10 @@
     </header>
 
     <main>
-      <!-- First banner with title, description, avatar and image desktop -->
-      <!-- You can use the avatar image on the folder image -->
-      <section>
+      <section id="banner">
+        <h1>Full Stack Developper</h1>
+        <p>I code beautifully simple things and I love what I do.</p>
+        <img src="./image/avatar.svg" alt="My Avatar" id="avatar">
         <figure class="desktop">
           <img src="image/desktop.svg" alt="desktop" />
         </figure>
@@ -33,13 +34,14 @@
         <section class="description pink-bg">
           <h1>Hi, I’m <span id="firstname">Matt</span>. Nice to meet you.</h1>
           <p>Since the beginning of my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
+          <button id="modify">Modify text and color</button>
         </section>
       </article>
 
       <!-- Bloc of list of skill front end and back end -->
         
       <article class="skills">
-        <h2 class="skills--title">My Skills</h2>
+        <!-- <h2 class="skills--title">My Skills</h2> -->
           <section class="column">
               <img src="image/frontend.svg" alt="" />
               <h3>Back-end Developer</h3>
@@ -47,9 +49,11 @@
               <h4 class="pink-text">Languages I speak:</h4>
               <p>MySql</p>
               <h4 class="pink-text">Dev Tools:</h4>
-              <ul>
+              <ul id="back-dev-tools">
                 <li>VScode</li>
               </ul>
+                <input id="added-skill" type="text" placeholder="Enter your skill">
+                <button type="submit" id="bttn-back-skills" class="bttn-skills pink-bg">Add</button>
           </section>
           <section class="column">
               <img src="image/frontend.svg" alt="" />
@@ -63,6 +67,7 @@
                 <li>You can modify</li>
                 <li>You can modify</li>
               </ul>
+              <button id="bttn-front-skills" class="bttn-skills pink-bg">Modify</button>
             </section>
       </article>
 

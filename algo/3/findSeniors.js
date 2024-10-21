@@ -1,5 +1,6 @@
 /*
-Voici un exemple de tableau de personnes. Écris une fonction qui à partir d'un tableau similaire reçu en paramètre renverra un nouveau tableau,
+Voici un exemple de tableau de personnes. Écris une fonction qui à partir d'un tableau similaire reçu en paramètre renverra 
+un nouveau tableau,
 lui-même contenant deux sous-tableaux :
 - Le premier contient uniquement des devs web seniors
 - Le second ne contient que des data analysts seniors
@@ -24,7 +25,7 @@ const persons = [
 ];
 
 */
-
+/*2 tableau 1 avec web dev l autre avec data analyst les 2 n affiche que ceux qui ont 5 ans ou plus d exp*/ 
 function findSeniors(persons) {
   // Your code here !
 }

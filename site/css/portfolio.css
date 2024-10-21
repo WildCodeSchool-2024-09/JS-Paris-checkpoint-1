@@ -23,9 +23,25 @@ p {
   padding: 0 var(--gutter);
 }
 
+nav {
+  display : flex; 
+  justify-content: space-between;
+}
+
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
+}
+
+nav .menu li a {
+  color: var(--purple)
+}
+
+.firstbanner {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .desktop {

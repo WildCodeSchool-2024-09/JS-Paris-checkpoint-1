@@ -67,6 +67,14 @@ nav .menu li a {
   background-color: var(--lightWildColor);
 }
 
+.pink-bg button{
+  color: var(--light);
+  background-color: var(--wildColor);
+  border-color: var(--light);
+  padding: 1rem;
+  border-radius: 5%;
+}
+
 .skills {
   margin-top: calc(var(--gutter) * -2);
   border-radius: var(--radius);

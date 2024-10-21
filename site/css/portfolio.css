@@ -11,6 +11,9 @@
   --textAlign: center;
 }
 
+
+
+
 img {
   max-width: 100%;
 }
@@ -108,3 +111,62 @@ p {
 .purple-text {
   color: var(--purple);
 }
+
+.skills--title{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+
+.disabled{
+  opacity: 0.5;
+}
+
+
+
+ @media screen and (min-width: 700px){
+  header>nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main >.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-column{
+    display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: row-reverse;
+}
+
+  .big-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ }
+
+
+ @media screen and (max-width: 700px){
+  .desktop{
+    display: none;
+    
+  }
+  .container-column{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+ flex-direction: row-reverse;
+}
+
+
+ }

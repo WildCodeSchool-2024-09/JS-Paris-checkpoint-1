@@ -27,16 +27,12 @@ const persons = [
 
 function findSeniors(persons) {
   // Your code here !
-  const devwebseniors = persons.filter(object => 
-    object.experience >= 5 && object.job.includes("web dev")
+  const devwebseniors = persons.filter(object => object.experience >= 5 && object.job.includes("web dev")  
   );
-  // console.log(devwebseniors);
   const datawebseniors = persons.filter(object => 
     object.experience >= 5 && object.job.includes("data analyst")
   );
-  // console.log(datawebseniors);
-  return devwebseniors;
-  return datawebseniors;
+  return [devwebseniors,datawebseniors];
 
 }
 
